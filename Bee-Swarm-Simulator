@@ -1,0 +1,10 @@
+if(game.placeId == 1537690962)
+then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local startMenu = Library.CreateLib("Vector", "Ocean")
+    local Home = startMenu:NewTab("Home")
+    local Farming = startMenu:NewTab("Farming")
+    local Combat = startMenu:NewTab("Combat")
+    local MiscDot = startMenu:NewTab("Misc.") 
+else
+end
